@@ -1,0 +1,75 @@
+[ModMeta]
+schema = 1
+name = Dutch Road Accessories
+author = Miorii
+desc = Dutch-themed accessories for use on roads mostly.
+version = 1.0.0
+
+[SignalTextures]
+id = miorii_traffic_light_three_way
+name_loc = miorii_traffic_light_three_way
+name_en = Dutch 3-way Traffic Light
+ui_rotate = 1
+state = textures/traffic_light_3way_green.png
+state = textures/traffic_light_3way_red.png
+
+[SignalTemplate]
+name_loc = miorii_traffic_light_three_way_template
+name_en = Dutch 3-way Traffic Light
+kind = path
+textures = miorii_traffic_light_three_way
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_traffic_light_three_way_left
+name_loc = miorii_traffic_light_three_way_left
+name_en = Dutch 3-way Traffic Light Left Arrows
+ui_rotate = 1
+state = textures/traffic_light_3way_green_left.png
+state = textures/traffic_light_3way_red_left.png
+
+[SignalTemplate]
+name_loc = miorii_traffic_light_three_way_left_template
+name_en = Dutch 3-way Traffic Light Left Arrows
+kind = path
+textures = miorii_traffic_light_three_way_left
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_traffic_light_three_way_right
+name_loc = miorii_traffic_light_three_way_right
+name_en = Dutch 3-way Traffic Light Right Arrows
+ui_rotate = 1
+state = textures/traffic_light_3way_green_right.png
+state = textures/traffic_light_3way_red_right.png
+
+[SignalTemplate]
+name_loc = miorii_traffic_light_three_way_right_template
+name_en = Dutch 3-way Traffic Light Right Arrows
+kind = path
+textures = miorii_traffic_light_three_way_right
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_crossing_lights
+name_en = Dutch Alternating Crossing Lights
+ui_rotate = 1
+
+state = textures/crossing_traffic_light_off.png
+state = textures/crossing_traffic_light_on_a.png
+state = textures/crossing_traffic_light_on_b.png
+
+[Script]
+id = miorii_crossing_script
+name = Dutch Crossing Light Flasher
+source = src/dutch_crossing.nimbyscript
+
+[SignalTemplate]
+name_en = Dutch Alternating Railroad Crossing Lights
+kind = path
+textures = miorii_crossing_lights
+extend = miorii_crossing_script CrossingFlasher
+rotate = 1
