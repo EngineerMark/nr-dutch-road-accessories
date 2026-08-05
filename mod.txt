@@ -9,7 +9,7 @@ version = 1.0.0
 id = miorii_traffic_light_three_way
 name_loc = miorii_traffic_light_three_way
 name_en = Dutch 3-way Traffic Light
-ui_rotate = 1
+ui_rotate = 3
 state = textures/traffic_light_3way_green.png
 state = textures/traffic_light_3way_red.png
 
@@ -19,13 +19,13 @@ name_en = Dutch 3-way Traffic Light
 kind = path
 textures = miorii_traffic_light_three_way
 size = 1
-rotate = 1
+rotate = 3
 
 [SignalTextures]
 id = miorii_traffic_light_three_way_left
 name_loc = miorii_traffic_light_three_way_left
 name_en = Dutch 3-way Traffic Light Left Arrows
-ui_rotate = 1
+ui_rotate = 3
 state = textures/traffic_light_3way_green_left.png
 state = textures/traffic_light_3way_red_left.png
 
@@ -35,13 +35,13 @@ name_en = Dutch 3-way Traffic Light Left Arrows
 kind = path
 textures = miorii_traffic_light_three_way_left
 size = 1
-rotate = 1
+rotate = 3
 
 [SignalTextures]
 id = miorii_traffic_light_three_way_right
 name_loc = miorii_traffic_light_three_way_right
 name_en = Dutch 3-way Traffic Light Right Arrows
-ui_rotate = 1
+ui_rotate = 3
 state = textures/traffic_light_3way_green_right.png
 state = textures/traffic_light_3way_red_right.png
 
@@ -51,12 +51,28 @@ name_en = Dutch 3-way Traffic Light Right Arrows
 kind = path
 textures = miorii_traffic_light_three_way_right
 size = 1
-rotate = 1
+rotate = 3
+
+[SignalTextures]
+id = miorii_traffic_light_three_way_straight_ahead
+name_loc = miorii_traffic_light_three_way_straight_ahead
+name_en = Dutch 3-way Traffic Light Straight Ahead Arrows
+ui_rotate = 3
+state = textures/traffic_light_3way_green_straight_ahead.png
+state = textures/traffic_light_3way_red_straight_ahead.png
+
+[SignalTemplate]
+name_loc = miorii_traffic_light_three_way_straight_ahead_template
+name_en = Dutch 3-way Traffic Light Straight Ahead Arrows
+kind = path
+textures = miorii_traffic_light_three_way_straight_ahead
+size = 1
+rotate = 3
 
 [SignalTextures]
 id = miorii_crossing_lights
 name_en = Dutch Alternating Crossing Lights
-ui_rotate = 1
+ui_rotate = 3
 
 state = textures/crossing_traffic_light_off.png
 state = textures/crossing_traffic_light_on_a.png
@@ -72,4 +88,4 @@ name_en = Dutch Alternating Railroad Crossing Lights
 kind = path
 textures = miorii_crossing_lights
 extend = miorii_crossing_script CrossingFlasher
-rotate = 1
+rotate = 3
