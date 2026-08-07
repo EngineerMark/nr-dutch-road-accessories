@@ -9,7 +9,7 @@ version = 1.0.0
 id = miorii_traffic_light_three_way
 name_loc = miorii_traffic_light_three_way
 name_en = Dutch 3-way Traffic Light
-ui_rotate = 3
+ui_rotate = 0
 state = textures/traffic_light_3way_green.png
 state = textures/traffic_light_3way_red.png
 
@@ -25,7 +25,7 @@ rotate = 3
 id = miorii_traffic_light_three_way_left
 name_loc = miorii_traffic_light_three_way_left
 name_en = Dutch 3-way Traffic Light Left Arrows
-ui_rotate = 3
+ui_rotate = 0
 state = textures/traffic_light_3way_green_left.png
 state = textures/traffic_light_3way_red_left.png
 
@@ -41,7 +41,7 @@ rotate = 3
 id = miorii_traffic_light_three_way_right
 name_loc = miorii_traffic_light_three_way_right
 name_en = Dutch 3-way Traffic Light Right Arrows
-ui_rotate = 3
+ui_rotate = 0
 state = textures/traffic_light_3way_green_right.png
 state = textures/traffic_light_3way_red_right.png
 
@@ -57,7 +57,7 @@ rotate = 3
 id = miorii_traffic_light_three_way_straight_ahead
 name_loc = miorii_traffic_light_three_way_straight_ahead
 name_en = Dutch 3-way Traffic Light Straight Ahead Arrows
-ui_rotate = 3
+ui_rotate = 0
 state = textures/traffic_light_3way_green_straight_ahead.png
 state = textures/traffic_light_3way_red_straight_ahead.png
 
@@ -73,7 +73,7 @@ rotate = 3
 id = miorii_traffic_light_three_way_top_left
 name_loc = miorii_traffic_light_three_way_top_left
 name_en = Dutch 3-way Traffic Light Top Left Arrows
-ui_rotate = 3
+ui_rotate = 0
 state = textures/traffic_light_3way_green_top_left.png
 state = textures/traffic_light_3way_red_top_left.png
 
@@ -89,7 +89,7 @@ rotate = 3
 id = miorii_traffic_light_three_way_top_right
 name_loc = miorii_traffic_light_three_way_top_right
 name_en = Dutch 3-way Traffic Light Top Right Arrows
-ui_rotate = 3
+ui_rotate = 0
 state = textures/traffic_light_3way_green_top_right.png
 state = textures/traffic_light_3way_red_top_right.png
 
@@ -104,7 +104,7 @@ rotate = 3
 [SignalTextures]
 id = miorii_crossing_lights
 name_en = Dutch Alternating Crossing Lights
-ui_rotate = 3
+ui_rotate = 0
 
 state = textures/crossing_traffic_light_off.png
 state = textures/crossing_traffic_light_on_a.png
