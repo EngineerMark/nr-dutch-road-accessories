@@ -102,6 +102,261 @@ size = 1
 rotate = 3
 
 [SignalTextures]
+id = miorii_yield_sign
+name_loc = miorii_yield_sign
+name_en = Dutch Yield Sign
+ui_rotate = 0
+state = textures/yield_sign.png
+
+[SignalTemplate]
+name_loc = miorii_yield_sign_template
+name_en = Dutch Yield Sign
+kind = path
+textures = miorii_yield_sign
+size = 1
+rotate = 3
+
+[SignalTextures]
+id = miorii_rvv_a3_closed
+name_loc = miorii_rvv_a3_closed
+name_en = Dutch Matrix Sign Closed Lane
+ui_rotate = 0
+state = textures/rvv_a3_matrix_closed.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_closedtemplate
+name_en = Dutch Matrix Sign Closed Lane
+kind = marker
+textures = miorii_rvv_a3_closed
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_open
+name_loc = miorii_rvv_a3_open
+name_en = Dutch Matrix Sign Open Lane
+ui_rotate = 0
+state = textures/rvv_a3_matrix_open.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_opentemplate
+name_en = Dutch Matrix Sign Open Lane
+kind = marker
+textures = miorii_rvv_a3_open
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_30
+name_loc = miorii_rvv_a3_30
+name_en = Dutch Matrix Sign 30kmh
+ui_rotate = 0
+state = textures/rvv_a3_matrix_30km.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_30template
+name_en = Dutch Matrix Sign 30kmh
+kind = marker
+textures = miorii_rvv_a3_30
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_30_border
+name_loc = miorii_rvv_a3_30_border
+name_en = Dutch Matrix Sign 30kmh with border
+ui_rotate = 0
+state = textures/rvv_a3_matrix_30km_border.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_30_bordertemplate
+name_en = Dutch Matrix Sign 30kmh with border
+kind = marker
+textures = miorii_rvv_a3_30_border
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_50
+name_loc = miorii_rvv_a3_50
+name_en = Dutch Matrix Sign 50kmh
+ui_rotate = 0
+state = textures/rvv_a3_matrix_50km.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_50template
+name_en = Dutch Matrix Sign 50kmh with border
+kind = marker
+textures = miorii_rvv_a3_50
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_50_border
+name_loc = miorii_rvv_a3_50_border
+name_en = Dutch Matrix Sign 50kmh with border
+ui_rotate = 0
+state = textures/rvv_a3_matrix_50km_border.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_50_bordertemplate
+name_en = Dutch Matrix Sign 50kmh
+kind = marker
+textures = miorii_rvv_a3_50_border
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_60
+name_loc = miorii_rvv_a3_60
+name_en = Dutch Matrix Sign 60kmh
+ui_rotate = 0
+state = textures/rvv_a3_matrix_60km.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_60template
+name_en = Dutch Matrix Sign 60kmh
+kind = marker
+textures = miorii_rvv_a3_60
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_60_border
+name_loc = miorii_rvv_a3_60_border
+name_en = Dutch Matrix Sign 60kmh with border
+ui_rotate = 0
+state = textures/rvv_a3_matrix_60km_border.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_60_bordertemplate
+name_en = Dutch Matrix Sign 60kmh with border
+kind = marker
+textures = miorii_rvv_a3_60_border
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_70
+name_loc = miorii_rvv_a3_70
+name_en = Dutch Matrix Sign 70kmh
+ui_rotate = 0
+state = textures/rvv_a3_matrix_70km.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_70template
+name_en = Dutch Matrix Sign 70kmh
+kind = marker
+textures = miorii_rvv_a3_70
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_70_border
+name_loc = miorii_rvv_a3_70_border
+name_en = Dutch Matrix Sign 70kmh with border
+ui_rotate = 0
+state = textures/rvv_a3_matrix_70km_border.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_70_bordertemplate
+name_en = Dutch Matrix Sign 70kmh with border
+kind = marker
+textures = miorii_rvv_a3_70_border
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_80
+name_loc = miorii_rvv_a3_80
+name_en = Dutch Matrix Sign 80kmh
+ui_rotate = 0
+state = textures/rvv_a3_matrix_80km.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_80template
+name_en = Dutch Matrix Sign 80kmh
+kind = marker
+textures = miorii_rvv_a3_80
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_80_border
+name_loc = miorii_rvv_a3_80_border
+name_en = Dutch Matrix Sign 80kmh with border
+ui_rotate = 0
+state = textures/rvv_a3_matrix_80km_border.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_80_bordertemplate
+name_en = Dutch Matrix Sign 80kmh with border
+kind = marker
+textures = miorii_rvv_a3_80_border
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_90
+name_loc = miorii_rvv_a3_90
+name_en = Dutch Matrix Sign 90kmh
+ui_rotate = 0
+state = textures/rvv_a3_matrix_90km.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_90template
+name_en = Dutch Matrix Sign 90kmh
+kind = marker
+textures = miorii_rvv_a3_90
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_90_border
+name_loc = miorii_rvv_a3_90_border
+name_en = Dutch Matrix Sign 90kmh with border
+ui_rotate = 0
+state = textures/rvv_a3_matrix_90km_border.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_90_bordertemplate
+name_en = Dutch Matrix Sign 90kmh with border
+kind = marker
+textures = miorii_rvv_a3_90_border
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_100
+name_loc = miorii_rvv_a3_100
+name_en = Dutch Matrix Sign 100kmh
+ui_rotate = 0
+state = textures/rvv_a3_matrix_100km.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_100template
+name_en = Dutch Matrix Sign 100kmh
+kind = marker
+textures = miorii_rvv_a3_100
+size = 1
+rotate = 1
+
+[SignalTextures]
+id = miorii_rvv_a3_120
+name_loc = miorii_rvv_a3_120
+name_en = Dutch Matrix Sign 120kmh
+ui_rotate = 0
+state = textures/rvv_a3_matrix_120km.png
+
+[SignalTemplate]
+name_loc = miorii_rvv_a3_120template
+name_en = Dutch Matrix Sign 120kmh
+kind = marker
+textures = miorii_rvv_a3_120
+size = 1
+rotate = 1
+
+[SignalTextures]
 id = miorii_crossing_lights
 name_en = Dutch Alternating Crossing Lights
 ui_rotate = 0
